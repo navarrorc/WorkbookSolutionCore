@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\..\..\workbook\csharp-workbook\02Week\TicTacToe.cs" Link="TicTacToe.cs" />
+    <Compile Include="..\..\csharp-workbook\02Week\TicTacToe.cs" Link="TicTacToe.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
   </ItemGroup>
 
 </Project>
